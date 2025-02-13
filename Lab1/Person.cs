@@ -12,7 +12,7 @@ namespace Lab1
         private int personId;
         private string firstName;
         private string lastName;
-        private string favoriteColor;
+        private string favoriteColor; 
         private int age;
         private bool isWorking;
 

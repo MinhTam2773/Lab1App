@@ -62,3 +62,6 @@ foreach (Person person in personList)
         Console.WriteLine(person);
     }
 }
+
+Console.WriteLine("Hello world");
+Console.WriteLine("Cac");
