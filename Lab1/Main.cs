@@ -29,18 +29,4 @@ Console.WriteLine(brotherHood.ShowRelationShip( person1, person3));
 //Add all the Person objects to a list
 Person[] personList = [person1, person2, person3, person4];
 
-//The average age of the people in the list
-double totalAge = 0, averageAge;
-foreach (Person person in personList)
-{
-    totalAge += person.Age;
-};
-averageAge = totalAge / personList.Length;
-Console.WriteLine($"Average age is: {averageAge}");
 
-//display youngest and oldest people
-Person youngestPerson = personList.MinBy(person => person.Age);
-Console.WriteLine($"The youngest person is: {youngestPerson.FirstName}");
-
-Person oldestPerson = personList.MaxBy(person => person.Age);
-Console.WriteLine($"The oldest person is: {oldestPerson.FirstName}");
