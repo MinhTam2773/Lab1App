@@ -42,8 +42,7 @@ Console.WriteLine($"Average age is: {averageAge}");
 Person youngestPerson = personList.MinBy(person => person.Age);
 Console.WriteLine($"The youngest person is: {youngestPerson.FirstName}");
 
-Person oldestPerson = personList.MaxBy(person => person.Age);
-Console.WriteLine($"The oldest person is: {oldestPerson.FirstName}");
+
 
 //display people whose name start with M
 foreach (Person person in personList)
@@ -54,12 +53,5 @@ foreach (Person person in personList)
     }
 }
 
-
-
-
-//awdwadasdada
-
-//display people whose favorite color is Black
-//asdsa
 
 
