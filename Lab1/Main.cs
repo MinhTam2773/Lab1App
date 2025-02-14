@@ -55,12 +55,6 @@ foreach (Person person in personList)
 }
 
 //display people whose favorite color is Blue
-foreach (Person person in personList)
-{
-    if (person.FavoriteColor == "Blue") 
-    {
-        Console.WriteLine(person);
-    }
-}
+
 
 
