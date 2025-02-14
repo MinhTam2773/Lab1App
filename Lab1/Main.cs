@@ -45,5 +45,4 @@ Console.WriteLine($"The youngest person is: {youngestPerson.FirstName}");
 Person oldestPerson = personList.MaxBy(person => person.Age);
 Console.WriteLine($"The oldest person is: {oldestPerson.FirstName}");
 
-//display all the people in the list
 
