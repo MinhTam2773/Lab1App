@@ -53,8 +53,3 @@ foreach (Person person in personList)
         Console.WriteLine(person);
     }
 }
-
-//display people whose favorite color is Blue
-//hello
-
-
